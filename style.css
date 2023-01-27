@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(9, 45, 41);
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    overflow: hidden; 
+}
+
+.area-login{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.Login{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 8, 8);
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+.Login form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Login input{
+    color: azure;
+    outline: none;
+    height: 45px;
+    border: none;
+    background-color: blueviolet;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+input::placeholder{
+    color: azure;
+    font-size: 14px;
+}
+.Login img{
+    width: 65px;
+    height: auto;
+}
+form [type="submite"]{
+    display: block;
+    background-color: blue;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 10px;
+}
